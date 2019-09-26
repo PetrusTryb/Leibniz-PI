@@ -3,7 +3,7 @@ using namespace std;
 int main() {
 	double pi = 1;
 	long long frac = 3;
-	for (long long i = 1; i <= 9999999999; i++) {
+	for (long long i = 1; i <= 8000000001; i++) {
 		if (i % 2 == 0) 
 			pi += (double)1 / frac;
 		else
